@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    float a, b, pot;
+    
+    printf("Digite a tensão: ");
+    scanf("%f", &a);
+    printf("Digite a corrente: ");
+    scanf("%f", &b);
+    
+    pot = a*b;
+    
+    printf("A poetencia é %f", pot);
+    
+    return 0;
+}
